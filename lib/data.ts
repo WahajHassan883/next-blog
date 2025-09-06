@@ -209,3 +209,27 @@ export const contactDetails = [
   },
 ];
 
+// Categories Page Sections Data
+export const Slugcategories = [
+  {
+    name: "Web Development",
+    slug: "web-development",
+    count: 12,
+    image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg",
+    description: "Latest frameworks, tools, and best practices shaping the web.",
+  },
+  {
+    name: "AI & Machine Learning",
+    slug: "ai-ml",
+    count: 8,
+    image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
+    description: "Insights into the fast-growing world of artificial intelligence.",
+  },
+  {
+    name: "Design",
+    slug: "design",
+    count: 5,
+    image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+    description: "From UI/UX trends to creative design strategies.",
+  },
+];
