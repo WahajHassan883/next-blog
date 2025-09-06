@@ -42,13 +42,12 @@ export default function TeamSection() {
                 {/* Team Image */}
                 <div className="relative w-full h-56 overflow-hidden">
                   <Image 
-  src={member.image} 
-  alt={member.name} 
-  width={300} 
-  height={300} 
-  unoptimized 
-/>
-
+                    src={member.image} 
+                    alt={member.name} 
+                    width={300} 
+                    height={300} 
+                    unoptimized 
+                  />
                 </div>
 
                 {/* Content */}
