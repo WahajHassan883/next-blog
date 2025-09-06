@@ -5,7 +5,7 @@ import TeamSection from '@/components/TeamSection';
 
 export default function About(){
     return(
-      <div>
+      <div className="min-h-screen bg-background">
        <AboutHero />
        <MissionSection/>
        <JourneySection/>
