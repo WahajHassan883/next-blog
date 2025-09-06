@@ -41,13 +41,14 @@ export default function TeamSection() {
               >
                 {/* Team Image */}
                 <div className="relative w-full h-56 overflow-hidden">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                  />
+                  <Image 
+  src={member.image} 
+  alt={member.name} 
+  width={300} 
+  height={300} 
+  unoptimized 
+/>
+
                 </div>
 
                 {/* Content */}
