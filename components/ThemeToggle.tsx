@@ -36,7 +36,7 @@ export default function ThemeToggle() {
       />
       <Moon
         className={`h-4 w-4 transition-colors ${
-          theme === "dark" ? "text-yellow-500" : "text-muted-foreground"
+          theme === "dark" ? "text-blue-500" : "text-muted-foreground"
         }`}
       />
     </div>

@@ -1,6 +1,7 @@
 import { navItems } from "@/lib/constants";
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
+import MobileNavigation from "./MobileNavigation";
 
 export default function Navigation (){
     return <nav className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
@@ -21,6 +22,9 @@ export default function Navigation (){
                 ))}
                 <ThemeToggle/>
             </div> 
+
+            {/* Mobile Nav */}
+            <MobileNavigation/>
         </div>
       </div>
     </nav>
